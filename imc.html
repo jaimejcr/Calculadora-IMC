@@ -5,9 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-    <link src="imc.css">
+    <link rel="stylesheet" href="imc.css">
 </head>
 <body>
+    <div class="div-padre">
+        <h1 class="tittle">BMI Calculator</h1>
+        <div class="input-height">
+            <label for="height">Height:</label>
+            <input type="text" id="height" name="height">
+            <label for="Weight">Weight:</label>
+            <input type="text" id="weight" name="weight">
+        </div>
+        <div class="submit" >
+            <button type="submit" class="btn">Calculate</button>
+            <h2 id="result" ></h2>
+        </div>
+    </div>
     <script src="imc.js" ></script>
 </body>
 </html>
